@@ -1,0 +1,439 @@
+*{   margin:0px;
+    padding: 0%;
+    box-sizing: border-box;   
+
+}
+
+
+.container{height: 720px;
+    filter: brightness(55%);
+    background-image: url("./photos/mainBackground.png");
+    position: relative;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+.container ul{display: flex;
+  
+   
+    
+
+}
+.container ul li{
+    display: flex;
+ 
+    margin-top: 50px;
+    margin-bottom:50px;
+    margin-right: 25px;
+    margin-left: 25px;
+    color: white;
+}
+.container ul li:hover{
+    font-size: bold;
+text-decoration: underline;
+cursor:pointer;
+}
+
+
+.main-1{text-align: left;
+       color:white;
+       padding-left: 10%;
+       padding-top: 10%;
+
+
+}
+.main-1 h1{
+    font-size:70px;
+    padding-bottom: 50px;
+}
+.main-1 p{padding-bottom: 60px;
+
+}
+.main-1 button{
+    background-color: rgb(109, 89, 224);
+    padding-top:12px;
+    padding-bottom: 12px;
+    padding-left: 25px;
+    padding-right:25px;
+    color: white;
+    border-radius: 25px;
+    border: none;
+
+}
+.main-1 button:hover{
+   color: rgb(109, 89, 224) ;
+   background-color:rgb(18, 18, 18);
+    cursor: pointer;
+
+}
+.logo{
+
+    padding:15px;
+    background-color: white;
+    width: 80%;
+    height: 15%;
+    border-radius: 25px;
+    border: none;
+    margin-left: 10%;
+  
+    position: absolute;
+      top:660px;
+
+    
+
+}
+.logo img{padding:25px;
+          margin-left:3%;
+          margin-top:-1%;
+      
+
+}
+
+    .main-2{background-color:aliceblue;
+            
+} 
+
+
+.main-2 h1{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 10%;
+    word-spacing:10px ;
+    padding-bottom:20px
+
+}
+.msection{
+  position: relative;
+  display: flex;
+  justify-content:center;
+  margin-top:40px ;
+  padding-bottom:40px;
+
+ 
+
+}
+
+.msection img{
+    padding: 10px;
+    width: 310px;
+    height:400px;
+    border:none;
+    border-radius: 30px;
+ 
+
+
+}
+.two{margin-top: 25px;
+
+
+}
+.three{margin-top: 50px;
+
+}
+
+
+.c{
+   
+    display: inline-block;
+    
+}
+
+
+.pc { 
+    position: absolute; 
+     top:350px;
+     padding: 10px;
+     margin:0px, 10px;
+     margin-left: 20px;
+     width: 260px;
+     height:100px;
+     border:none;
+     border-radius: 25px;
+     background-color: white;
+  
+}
+
+.pc span{
+    color:rgb(125, 107, 230) ;
+
+}
+
+
+
+    
+     .pc button{   
+            float: right;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-right: 20px;
+            padding-left: 20px;
+            margin-top: -30px;
+            text-align:center ;
+            color: white;
+            background-color:rgb(109, 89, 224) ;
+            border:none;
+            border-radius: 30px;
+
+}
+.pc button:hover{
+   
+    color: rgb(109, 89, 224) ;
+    background-color:rgb(18, 18, 18);
+     cursor: pointer;
+ 
+ }
+
+.two12{
+    margin-top: 25px;
+
+
+}
+.one11{
+    margin-top: 50px;
+
+}
+
+.main-3{
+    padding-top: 150px;
+    background-color:aliceblue;
+    display: flex;
+    
+    
+}
+
+
+
+
+div.left-side{ 
+    position:relative;
+            
+}
+
+.fimage-1{
+        position: absolute;
+        width: 440px;
+        height: 450px;
+        border:none;
+        border-radius: 40px;
+        left: 110px;
+        top: -40px;
+}
+.featureImageBg1{
+           width: 600px;
+           height: 550px;
+          
+}
+
+
+.right-side{
+    text-align: left;
+    margin-left: 100px;
+}
+
+.right-side h1{
+    margin-top: 50px;
+    margin-bottom:50px;
+    color: black;
+
+} 
+
+.right-side p{color: grey;
+    margin-bottom: 50px;
+
+}
+.right-side button{ 
+     background-color: rgb(109, 89, 224);
+     padding-top:15px;
+     padding-bottom: 15px;
+     padding-left: 28px;
+     padding-right:28px;
+     color: white;
+     border-radius: 25px;
+     border: none;
+}
+
+
+
+.main-4{
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    background-color:aliceblue;
+    display: flex;
+   
+
+}
+
+
+div.left-side-1{ 
+    position:relative;
+margin-left: 110px;
+            
+}
+
+
+.fimage-2{
+    position: absolute;
+    width: 440px;
+    height: 450px;
+    border:none;
+    border-radius: 40px;
+    right: 110px;
+    top: -40px;
+}
+
+.featureImageBg2{
+    width: 600px;
+    height: 550px;
+   
+  
+   
+}
+
+.right-side-1{
+    text-align: left;
+    margin-left: 90px;
+}
+
+.right-side-1 h1{
+    margin-top: 50px;
+    margin-bottom:50px;
+    color: black;
+
+} 
+
+.right-side-1 p{color: grey;
+    margin-bottom: 50px;
+
+}.right-side-1 button{ 
+    background-color: rgb(110, 95, 209);
+    padding-top:15px;
+    padding-bottom: 15px;
+    padding-left: 28px;
+    padding-right:28px;
+    color: white;
+    border-radius: 25px;
+    border: none;
+}
+
+
+#section{width: 84%;
+         height: 60%;
+         background-color:rgb(99, 77, 225) ; 
+         margin-left:8% ;
+         margin-right:8% ;
+         border: none;
+         margin-bottom: 50px;
+         border-radius: 45px;
+         padding-bottom: 70px;
+         
+
+}
+
+#section h1{
+    color:white;
+    font-size: 60px;
+    text-align:center;
+    padding-top:50px;
+    padding-bottom:50px;
+
+}
+
+#section p{
+    color:white;
+    padding-bottom:30px;
+    text-align:center;
+    margin-bottom: 40px;
+   
+}
+#section-1 {
+  margin-left:20% ;
+ 
+}
+
+
+#section-1 input {
+                  width: 50%;
+                 
+                  border: none;
+                  border-radius: 55px;
+                  color: white;
+                  background-color:rgb(84, 55, 250) ;  
+                  margin-right:2%;
+                  /* margin-bottom:10%; */
+                  padding-top: 15px;
+
+                  padding-bottom: 15px;
+                  padding-right: 30px;
+                  padding-left: 30px;
+        
+}
+
+
+#section-1 button{   
+                  padding-top: 15px;
+                padding-bottom: 15px;
+                  padding-right: 30px;
+                  padding-left: 30px;
+    text-align:center ;
+    color: rgb(109, 89, 224) ;
+    background-color:white;
+    border:none;
+    border-radius: 30px;
+                  
+}
+
+footer{display: flex;
+    justify-content: space-around;
+    margin: 8%;
+}
+.f-left{
+   margin-right :30%;
+}
+footer img{
+    margin-left: 15px;
+
+}
+
+.footr{
+    padding:10px ;
+}
+.footr img{margin: 15px;
+
+}
+
+
+
+#f-right {display: flex;
+  
+    color: black;
+
+}
+#f-right ul li{padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    list-style: none;
+}
+
+#f-right ul li b{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
